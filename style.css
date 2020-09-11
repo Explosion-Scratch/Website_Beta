@@ -121,8 +121,7 @@ h4 {
 	 padding: 0px;
 	 border-radius: var(--button_2_rounded);
 	 color: #fff;
-	 font-size: 1rem;
-	 letter-spacing: 0.15rem;
+	 font-size: 10px;
 	 transition: all 0.3s;
 	 position: relative;
 	 overflow: hidden;
