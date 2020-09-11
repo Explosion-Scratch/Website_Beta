@@ -61,7 +61,7 @@ h4 {
 }
 
 #link:hover {
-	color: #fff;
+	color: var(--secondary-color);
 }
 
 #link:hover::before {
@@ -70,6 +70,7 @@ h4 {
 }
 /* Button effects */
 #button_1 {
+  font-weight: 550;
 	border-radius: 4px;
 	background-color: var(--button-color);
 	border: none;
