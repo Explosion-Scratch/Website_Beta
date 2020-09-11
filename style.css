@@ -33,12 +33,10 @@ h3 {
 h4 {
 	color: var(--accents);
 }
-
+/* Link stuff */
 #link {
-	/* RESET */
 	text-decoration: none;
 	line-height: 1;
-
 	position: relative;
 	z-index: 0;
 	display: inline-block;
@@ -70,7 +68,7 @@ h4 {
 	transform: translateY(0);
 	transition: transform .25s ease-out;
 }
-
+/* Button effects */
 #button_1 {
 	border-radius: 4px;
 	background-color: var(--button-color);
