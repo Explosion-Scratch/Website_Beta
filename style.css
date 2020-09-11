@@ -28,6 +28,8 @@ h1, h2, h3, h4, h5{
   left: 0;
   right: 0;
   bottom: 0;
+  display: block;
+  background: url("https://images.freecreatives.com/wp-content/uploads/2015/04/5-FREE-GEOMETRIC-POLYGONAL-BACKGROUNDS.jpg")
 }
 h1 {
 	color: var(--primary-color);
