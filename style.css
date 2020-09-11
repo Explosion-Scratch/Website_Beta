@@ -1,11 +1,12 @@
 :root {
   --button-color: #f4511e;
+  --button-text-color: white;
 }
 .button {
   border-radius: 4px;
   background-color: var(--button-color);
   border: none;
-  color: #FFFFFF;
+  color: var(--button-text-color);
   text-align: center;
   font-size: 28px;
   padding: 5px;
