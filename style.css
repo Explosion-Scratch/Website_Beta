@@ -81,6 +81,7 @@ header div {
 	position: absolute;
 	z-index: 1;
 	top: 50%;
+  right: 3%;
 	padding: 0 30px;
 	font-family: 'Roboto Condensed', sans-serif;
 	transform: translateZ(-2px) scale(1.2);
