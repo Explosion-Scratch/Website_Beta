@@ -254,11 +254,11 @@ p {
   position: relative;
   z-index: 2;
   font-weight: bold;
-  right: 95px;
+  right: 93px;
 }
 .bar .label.second {
   background: #333;
-  right: 95px;
+  right: 93px;
 }
 .count {
   position: absolute;
