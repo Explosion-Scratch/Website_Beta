@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5{
 }
 #background {
   background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/bfc73028828761.55d467b773475.jpg');
-  padding: 100px;
+  padding: 100px 100%;
 }
 h1 {
 	color: var(--primary-color);
