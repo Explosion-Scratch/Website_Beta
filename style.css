@@ -135,7 +135,7 @@ h4 {
 	 left: 0;
 	 width: 100%;
 	 height: 100%;
-	 background-color: #0cf;
+	 background-color: var(--button-color);
 	 border-radius: var(--button_2_rounded);
 	 z-index: -2;
 }
