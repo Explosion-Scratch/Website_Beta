@@ -21,11 +21,13 @@
 h1, h2, h3, h4, h5{
   text-align: center;
 }
-#background {
-  background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/bfc73028828761.55d467b773475.jpg');
-  background-size: 100%;
-  margin: 0;
-  background-attachment: fixed;
+.background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 h1 {
 	color: var(--primary-color);
