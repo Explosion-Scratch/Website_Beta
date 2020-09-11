@@ -10,7 +10,7 @@
 	--disabled: grey;
 	--accents: teal;
 	--text: #101010;
-  --button_2_rounded: 10rem;
+  --button_2_rounded: 10px;
 }
 
 * {
