@@ -187,7 +187,7 @@ p {
 }
 #button_2 {
 	 display: inline-block;
-	 padding: 5px;
+	 padding: 10px;
 	 border-radius: var(--button_2_rounded);
 	 color: #fff;
 	 font-size: 20px;
