@@ -61,7 +61,7 @@ h4 {
 }
 
 #link:hover {
-	color: var(--secondary-color);
+  color: white;
 }
 
 #link:hover::before {
