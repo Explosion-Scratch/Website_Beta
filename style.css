@@ -116,5 +116,43 @@ h4 {
   background-color: var(--button-click-color)
 }
 #button_2 {
-
+	 display: inline-block;
+	 padding: 0px;
+	 border-radius: 10rem;
+	 color: #fff;
+	 font-size: 1rem;
+	 letter-spacing: 0.15rem;
+	 transition: all 0.3s;
+	 position: relative;
+	 overflow: hidden;
+	 z-index: 1;
+   border: none;
 }
+ #button_2:after {
+	 content: '';
+	 position: absolute;
+	 bottom: 0;
+	 left: 0;
+	 width: 100%;
+	 height: 100%;
+	 background-color: #0cf;
+	 border-radius: 10rem;
+	 z-index: -2;
+}
+ #button_2:before {
+	 content: '';
+	 position: absolute;
+	 bottom: 0;
+	 left: 0;
+	 width: 0%;
+	 height: 100%;
+	 background-color: #008fb3;
+	 transition: all 0.3s;
+	 z-index: -1;
+   border-radius: 10rem;
+}
+
+ #button_2:hover:before {
+	 width: 100%;
+}
+ 
