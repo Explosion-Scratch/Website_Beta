@@ -154,7 +154,8 @@ h4 {
  #button_2:hover:before {
 	 width: 100%;
 }
-.background {
+.background::before {
   background-image: url('https://i.pinimg.com/originals/b9/ba/44/b9ba446cca2bb06ff1a8d49fd46581ed.jpg');
   background-size: cover;
+
 }
