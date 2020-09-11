@@ -146,7 +146,7 @@ h4 {
 	 left: 0;
 	 width: 0%;
 	 height: 100%;
-	 background-color: #008fb3;
+	 background-color: var(--button-click-color);
 	 transition: all 0.3s;
 	 z-index: -1;
    border-radius: var(--button_2_rounded);
