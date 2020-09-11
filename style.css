@@ -12,12 +12,13 @@
 	--text: #101010;
   --button_2_rounded: 200px;
 }
-
 * {
 	font-family: Mulish, sans-serif;
 	margin-right: 10%;
 	margin-left: 10%;
   line-height: 26px;
+  background-attachment: fixed;
+  background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/bfc73028828761.55d467b773475.jpg');
 }
 h1, h2, h3, h4, h5{
   text-align: center;
