@@ -60,6 +60,7 @@ header {
 	min-height: 100vh;
 	position: relative;
 	transform-style: preserve-3d;
+  text-align: center;
 }
 
 header::before {
