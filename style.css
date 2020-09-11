@@ -4,7 +4,7 @@
 	--button-text-color: white;
 	--primary-color: #212121;
 	--secondary-color: #009688;
-	--tertiary-color: #009688;
+	--tertiary-color: #02b3a1;
 	--disabled: grey;
 	--accents: #707070;
 	--text: #212121;
@@ -223,4 +223,48 @@ p {
 
  #button_2:hover:before {
 	 width: 100%;
+}
+
+
+.wrap {
+  width: 50%;
+  margin: 0 auto;
+}
+.bar {
+  background: var(--secondary-color);
+  width: 0;
+  margin: .25em 0;
+  color: #fff;
+  position: relative;
+  transition: width 2s, background .2s;
+  -webkit-transform: translate3d(0, 0, 0);
+  clear: both;
+  border-radius: 3px;
+}
+.bar:nth-of-type(odd) {
+  background: var(--tertiary-color);
+}
+.bar .label {
+  border-radius: 5px;
+  font-size: .75em;
+  padding: 1em;
+  background: #212121;
+  width: 7em;
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+  font-weight: bold;
+  right: 95px;
+}
+.bar .label.second {
+  background: #333;
+  right: 95px;
+}
+.count {
+  position: absolute;
+  right: .25em;
+  top: .75em;
+  padding: .15em;
+  font-size: .75em;
+  font-weight: bold;
 }
