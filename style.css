@@ -17,6 +17,24 @@
 	box-sizing: border-box;
 }
 
+h1, h2, h3, h4, h5{
+  text-align: center;
+}
+h1 {
+	color: var(--primary-color);
+}
+
+h2 {
+	color: var(--secondary-color);
+}
+
+h3 {
+	color: var(--tertiary-color);
+}
+
+h4 {
+	color: var(--accents);
+}
 html {
 	width: 100%;
 	height: 100%;
