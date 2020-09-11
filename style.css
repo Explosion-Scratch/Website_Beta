@@ -10,6 +10,7 @@
 	--disabled: grey;
 	--accents: teal;
 	--text: #101010;
+  --button_2_rounded: 10rem;
 }
 
 * {
@@ -118,7 +119,7 @@ h4 {
 #button_2 {
 	 display: inline-block;
 	 padding: 0px;
-	 border-radius: 10rem;
+	 border-radius: var(--button_2_rounded);
 	 color: #fff;
 	 font-size: 1rem;
 	 letter-spacing: 0.15rem;
@@ -136,7 +137,7 @@ h4 {
 	 width: 100%;
 	 height: 100%;
 	 background-color: #0cf;
-	 border-radius: 10rem;
+	 border-radius: var(--button_2_rounded);
 	 z-index: -2;
 }
  #button_2:before {
@@ -149,7 +150,7 @@ h4 {
 	 background-color: #008fb3;
 	 transition: all 0.3s;
 	 z-index: -1;
-   border-radius: 10rem;
+   border-radius: var(--button_2_rounded);
 }
 
  #button_2:hover:before {
