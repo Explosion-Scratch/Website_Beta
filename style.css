@@ -24,8 +24,8 @@ h1, h2, h3, h4, h5{
 #background {
   background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/bfc73028828761.55d467b773475.jpg');
   background-size: 100%;
-  padding: 500px;
   margin: 0;
+  background-attachment: fixed;
 }
 h1 {
 	color: var(--primary-color);
