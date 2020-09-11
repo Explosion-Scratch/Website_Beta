@@ -1,6 +1,8 @@
 :root {
   --button-color: #f4511e;
   --button-text-color: white;
+  --primary-color: #101010;
+  --secondary-color: red;
 }
 .button {
   border-radius: 4px;
@@ -39,4 +41,10 @@
 .button:hover span:after {
   opacity: 1;
   right: 0;
+}
+h1 {
+  color: var(--primary-color);
+}
+h2 {
+  color: var(--secondary-color);
 }
