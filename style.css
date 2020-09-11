@@ -104,8 +104,10 @@ section {
 	z-index: 2;
 }
 p {
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 500px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 .container {
 	margin: auto;
