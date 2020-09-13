@@ -354,7 +354,11 @@ p {
   scrollbar-color: var(--primary-color) var(--secondary-color);
 }
 body::-webkit-scrollbar {
-  width: 5px;               /* width of the entire scrollbar */
+  width: 5px;
+  transition-duration: var(--animate-time-long);
+}
+body::-webkit-scrollbar:hover {
+  width: 10px;
 }
 body::-webkit-scrollbar-track {
   background: lightgray;
