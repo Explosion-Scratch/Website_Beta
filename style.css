@@ -400,29 +400,3 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-thumb:hover {
 	background-color: var(--tertiary-color);
 }
-
-.social-media {
-	padding: 10px;
-	display: flex;
-	position: center;
-	align-items: space-around;
-	justify-content: center;
-}
-
-.social-media a {
-	transition-duration: var(--animate-time-short);
-	margin: 10px;
-	font-size: 2rem;
-	text-align: center;
-	display: inline-block;
-	color: var(--main-fonts-color);
-}
-
-.social-media a i {
-	cursor: pointer;
-}
-
-.social-media a:hover {
-	color: var(--primary-color);
-	text-shadow: 0 0 50px var(--secondary-color);
-}
