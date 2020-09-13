@@ -354,12 +354,5 @@ p {
   scrollbar-color: var(--primary-color) var(--secondary-color);
 }
 body::-webkit-scrollbar {
-  width: 5px;               /* width of the entire scrollbar */
-}
-body::-webkit-scrollbar-track {
-  background: var(--accents);
-}
-body::-webkit-scrollbar-thumb {
-  background-color: var(--tertiary-color);
-  border-radius: 20px;
+width: 2px;
 }
