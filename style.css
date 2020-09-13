@@ -148,7 +148,6 @@ p {
 	vertical-align: bottom;
 	transition: color .3s ease-out;
 }
-
 #link::before {
 	content: "";
 	position: absolute;
