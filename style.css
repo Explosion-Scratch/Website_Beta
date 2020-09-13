@@ -213,7 +213,6 @@ p {
   background-color: var(--button-click-color)
 }
 #button_2 {
-	 display: inline-block;
 	 padding: 10px;
 	 border-radius: var(--button_2_rounded);
 	 color: #fff;
@@ -223,6 +222,11 @@ p {
 	 overflow: hidden;
 	 z-index: 1;
    border: none;
+   display: flex;
+	flex: 1;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
 }
  #button_2:after {
 	 content: '';
