@@ -348,3 +348,19 @@ p {
 .card:hover {
 	box-shadow: 0 0 20px var(--accents);
 }
+
+* {
+  scrollbar-width: 100px;
+  scrollbar-color: var(--primary-color) var(--secondary-color);
+}
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+body::-webkit-scrollbar-track {
+  background: var(--accents);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: blue;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid orange;  /* creates padding around scroll thumb */
+}
