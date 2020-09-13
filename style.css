@@ -354,7 +354,7 @@ p {
   scrollbar-color: var(--primary-color) var(--secondary-color);
 }
 body::-webkit-scrollbar {
-  width: 12px;               /* width of the entire scrollbar */
+  width: 5px;               /* width of the entire scrollbar */
 }
 body::-webkit-scrollbar-track {
   background: var(--accents);
