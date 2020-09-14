@@ -400,8 +400,16 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-thumb:hover {
 	background-color: var(--tertiary-color);
 }
-.contact-buttons > .iconify {
+.iconify{
   width: 50px;
   height: auto;
+  color: var(--primary-color);
+  transition-duration: var(--animate-time-long);
+  padding: 5px;
+  display: flex;
+  justify-content: center;
 }
-.contact-buttons
+.iconify:hover {
+  color: var(--secondary-color);
+  box-shadow: 0 0 5px 0 var(--primary-color)
+}
