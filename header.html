@@ -197,6 +197,7 @@
 		header {
 			display: flex;
 			flex-direction: column;
+      z-index: 100;
 		}
 
 		header.scrolled {
@@ -224,7 +225,7 @@
 		.heading {
 			padding: 24px;
 			box-shadow: 0px 0px 23px 0px rgba(0, 0, 0, 0.5);
-			z-index: 1;
+			z-index: 100;
 		}
 
 		.heading h1 {
@@ -390,6 +391,7 @@
 				pointer-events: none;
 				opacity: 0;
 				transition: all .4s;
+        z-index: 90;
 			}
 
 			.mobile-menu-items ul {
@@ -431,6 +433,7 @@
 				display: block;
 				padding-top: 0;
 				transition: all .4s;
+        z-index: 95;
 			}
 
 			.searchbox-mobile.active {
