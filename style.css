@@ -49,8 +49,11 @@ body::-webkit-scrollbar-thumb {
   top: 0;
   left: 0;
 }
-main {
-  background: var(--main-color);
+.container-container {
+  padding: 50px;
+  background-color: white;
+  margin: 100% 0;
+  min-width: 100%;
 }
 /*---------------------------- \
 | Header                       |
