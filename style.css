@@ -26,7 +26,8 @@
   padding:0;
   margin:0;
   box-sizing: border-box;
-  color: var(--text)
+  color: var(--text);
+  background: var(--background);
 }
 
 body {
@@ -187,7 +188,7 @@ header.scrolled .menu-items {
 }
 
 .menu-items a {
-  color:black;
+  color:var(--text);
   text-decoration: none;
 }
 
