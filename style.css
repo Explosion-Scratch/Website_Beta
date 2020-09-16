@@ -39,7 +39,7 @@ p {
   margin: 24px 0;
 }
 body::-webkit-scrollbar {
-	width: 50px;
+	width: 6px;
 }
 
 body::-webkit-scrollbar-track {
