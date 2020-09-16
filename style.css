@@ -105,7 +105,7 @@ body::-webkit-scrollbar-thumb {
   right:0;
   left:0;
   background:var(--background);
-  box-shadow: 0px 0px 23px 0px var(--text);
+  box-shadow: 0px 0px 23px 0px var(--box-shadow);
 }
 
 .header-container.fixed header {
@@ -164,7 +164,7 @@ header.scrolled .menu-items {
 
 .heading {
   padding:24px;
-  box-shadow: 0px 0px 23px 0px var(--text);
+  box-shadow: 0px 0px 23px 0px var(--box-shadow);
   z-index:1;
 }
 
