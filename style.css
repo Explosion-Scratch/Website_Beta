@@ -23,8 +23,7 @@ p {
   margin: 24px 0;
 }
 body::-webkit-scrollbar {
-	width: 10px;
-	transition-duration: var(--animate-time-long);
+	width: 6px;
 }
 
 body::-webkit-scrollbar-track {
