@@ -9,6 +9,10 @@
 /*---------------------------- \
 | Main element styling         |
 \-----------------------------*/
+::-webkit-scrollbar {
+  width: 6px;
+  color: #ffffff00
+}
 * {
   padding:0;
   margin:0;
