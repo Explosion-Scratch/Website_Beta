@@ -2,6 +2,7 @@
 | Variables                     |
 \-----------------------------*/
 :root {
+  --text: black;
   --main-color: #eee;
   --secondary-color: #111;
   --tertiary-color: #444;
@@ -10,12 +11,13 @@
   --background: white;
 }
 .dark-mode * {
-  --main-color: #eee;
+  --main-color: #101010;
   --secondary-color: #111;
   --tertiary-color: #444;
   --accents: #30d1ae;
   --accents-disabled: #20a187;
-  --background: white;
+  --background: #101010;
+  --text: white;
 }
 /*---------------------------- \
 | Main element styling         |
@@ -24,6 +26,7 @@
   padding:0;
   margin:0;
   box-sizing: border-box;
+  color: var(--text)
 }
 
 body {
