@@ -30,6 +30,7 @@
   box-sizing: border-box;
   color: var(--text);
   background: var(--background);
+  transition-duration: 0.5s;
 }
 
 body {
@@ -86,7 +87,9 @@ body::-webkit-scrollbar-thumb {
   max-width: 500px;
   margin:0 auto;
 }
-
+.header {
+  transition-duration: 0s;
+}
 .header-container {
   position: absolute;
   width:100%;
