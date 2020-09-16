@@ -48,12 +48,16 @@ body::-webkit-scrollbar-thumb {
   position: fixed;
   top: 0;
   left: 0;
+  filter: blur(10px);
+}
+background-image:hover {
+  filter: blur(2px);
 }
 .container-container {
   padding: 50px;
   background-color: white;
-  margin: 100% 0;
-  min-width: 100%;
+  margin: 2% 0;
+  min-width: 110%;
 }
 /*---------------------------- \
 | Header                       |
