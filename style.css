@@ -32,6 +32,7 @@
 
 body {
   font-family:"Raleway", sans-serif;
+  overflow: overlay;
 }
 
 p {
@@ -42,11 +43,11 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-	background: #fffee3;
+	background: transparent;
 }
 
 .dark-mode body::-webkit-scrollbar-track {
-	background: #101010;
+	background: transparent;
 }
 
 
