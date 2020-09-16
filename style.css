@@ -67,6 +67,27 @@ body::-webkit-scrollbar-thumb {
 .header-container.fixed header {
   margin-top: 0;
 }
+h1,h2,h3,h4,h5 {
+  text-align: center;
+}
+h1 {
+	color: var(--primary-color);
+}
+
+h2 {
+	color: var(--secondary-color);
+}
+
+h3 {
+	color: var(--accents-disabled);
+}
+
+h4 {
+	color: var(--accents);
+}
+h5 {
+  color: var(--tertiary-color)
+}
 
 /* Header */
 
