@@ -9,6 +9,7 @@
   --accents: #30d1ae;
   --accents-disabled: #20a187;
   --background: white;
+  --box-shadow: #00000075;
 }
 .dark-mode * {
   --main-color: #101010;
@@ -18,6 +19,7 @@
   --accents-disabled: #20a187;
   --background: #101010;
   --text: white;
+  --box-shadow: #ffffff75;
 }
 /*---------------------------- \
 | Main element styling         |
