@@ -75,7 +75,7 @@ body::-webkit-scrollbar-thumb {
   margin-top: 0px;
   right:0;
   left:0;
-  background:#fff;
+  background:var(--background);
   box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.5);
 }
 
@@ -129,7 +129,7 @@ header.scrolled h1 {
 }
 
 header.scrolled .menu-items {
-  background:#fff;
+  background:var(--background);
   flex:3;
 }
 
@@ -146,7 +146,7 @@ header.scrolled .menu-items {
 /* Menu Items */
 
 .menu-items {
-  background:#eee;
+  background:var(--background);
 }
 
 .menu-items .container {
@@ -256,7 +256,7 @@ main h2 {
     position:fixed;
     width:100%;
     z-index: 100;
-    background:white;
+    background: var(--background);
   }
 
   .mobile-header .menu-icon,
@@ -292,7 +292,7 @@ main h2 {
 
   .mobile-menu-items {
     display: flex;
-    background:#fff;
+    background:var(--background);
     width:100%;
     height:100vh;
     position: fixed;

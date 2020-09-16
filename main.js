@@ -51,3 +51,8 @@ mobileSearchIcon.addEventListener("click", function () {
     timesIcon.style.display = "none";
   }
 })
+
+function DarkMode() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
