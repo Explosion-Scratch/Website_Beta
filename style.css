@@ -6,6 +6,7 @@
   --secondary-color: #111;
   --tertiary-color: #444;
   --accents: #30d1ae;
+  --accents-disabled: #20a187;
 }
 /*---------------------------- \
 | Main element styling         |
@@ -32,7 +33,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-	background-color: var(--accents);
+	background-color: var(--accents-disabled);
 	border-radius: 20px;
 }
 /*---------------------------- \
