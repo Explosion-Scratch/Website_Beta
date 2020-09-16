@@ -39,7 +39,7 @@ p {
   margin: 24px 0;
 }
 body::-webkit-scrollbar {
-	width: 6px;
+	width: 50px;
 }
 
 body::-webkit-scrollbar-track {
@@ -105,7 +105,7 @@ body::-webkit-scrollbar-thumb {
   right:0;
   left:0;
   background:var(--background);
-  box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 23px 0px var(--text);
 }
 
 .header-container.fixed header {
@@ -164,7 +164,7 @@ header.scrolled .menu-items {
 
 .heading {
   padding:24px;
-  box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 23px 0px var(--text);
   z-index:1;
 }
 
@@ -298,7 +298,7 @@ main h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 23px 0px var(--text);
     align-items: center;
     padding: 0 32px;
   }
