@@ -13,7 +13,7 @@
 .dark-mode * {
   --main-color: #101010;
   --secondary-color: #ddd;
-  --tertiary-color: #444;
+  --tertiary-color: #777;
   --accents: #30d1ae;
   --accents-disabled: #20a187;
   --background: #101010;
@@ -336,7 +336,7 @@ main h2 {
   .mobile-menu-items a {
     text-decoration: none;
     font-size:26px;
-    color:#222;
+    color:var(--tertiary-color);
     letter-spacing: 8px;
     text-transform: uppercase;
   }
