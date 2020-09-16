@@ -42,8 +42,13 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-	background: var(--background);
+	background: #fffee3;
 }
+
+.dark-mode body::-webkit-scrollbar-track {
+	background: #101010;
+}
+
 
 body::-webkit-scrollbar-thumb {
 	background-color: var(--accents-disabled);
