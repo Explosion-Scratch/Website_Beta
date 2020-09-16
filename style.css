@@ -39,7 +39,8 @@ body::-webkit-scrollbar-thumb {
 /*---------------------------- \
 | Background image             |
 \-----------------------------*/
-.background-image {
+.background-image{
+  z-index: -100;
   min-height: 100%;
   min-width: 1024px;
   width: 100%;
@@ -47,6 +48,9 @@ body::-webkit-scrollbar-thumb {
   position: fixed;
   top: 0;
   left: 0;
+}
+main {
+  background: var(--main-color);
 }
 /*---------------------------- \
 | Header                       |
