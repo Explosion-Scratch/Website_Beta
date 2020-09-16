@@ -43,11 +43,11 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-	background: transparent;
+	background: #fffee39c;
 }
 
 .dark-mode body::-webkit-scrollbar-track {
-	background: transparent;
+	background: #0000009c;
 }
 
 
