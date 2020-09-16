@@ -12,7 +12,7 @@
 }
 .dark-mode * {
   --main-color: #101010;
-  --secondary-color: #111;
+  --secondary-color: #ddd;
   --tertiary-color: #444;
   --accents: #30d1ae;
   --accents-disabled: #20a187;
@@ -62,7 +62,17 @@ body::-webkit-scrollbar-thumb {
   left: 0;
   filter: blur(10px) contrast(50%) saturate(200%) brightness(200%) ;
 }
-
+.dark-mode .background-image{
+  z-index: -100;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  filter: blur(10px) contrast(50%) saturate(200%) brightness(-150%) ;
+}
 /*---------------------------- \
 | Header                       |
 \-----------------------------*/
@@ -98,7 +108,7 @@ h1,h2,h3,h4,h5 {
   text-align: center;
 }
 h1 {
-	color: var(--primary-color);
+	color: var(--text);
 }
 
 h2 {
