@@ -30,6 +30,7 @@
   box-sizing: border-box;
   color: var(--text);
   background: var(--background);
+  transition: color, background-color 0.5s;
 }
 
 body {
