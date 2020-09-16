@@ -37,6 +37,18 @@ body::-webkit-scrollbar-thumb {
 	border-radius: 20px;
 }
 /*---------------------------- \
+| Background image             |
+\-----------------------------*/
+.background-image {
+  object-fit: cover;
+  padding: 0;
+  margin: 0 auto;
+  width: 200%;
+  height: 100%;
+  position: fixed;
+  z-index: -100;
+}
+/*---------------------------- \
 | Header                       |
 \-----------------------------*/
 .container {
