@@ -13,6 +13,9 @@
   width: 6px;
   color: #ffffff00
 }
+::-webkit-scrollbar-button {
+  color: var(--accents);
+}
 * {
   padding:0;
   margin:0;
