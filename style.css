@@ -85,17 +85,17 @@ body::-webkit-scrollbar-thumb {
 /*---------------------------- \
 | Links                        |
 \-----------------------------*/
-a {
+#link a {
   color: var(--accents);
 }
-.dark-mode a {
+.dark-mode #link a {
   color: var(--accents-disabled)
 }
-a:hover {
+#link a:hover {
   color: var(--accents-disabled);
   background: #73a8e459;
 }
-.dark mode a:hover {
+.dark mode #link a:hover {
   color: var(--accents);
   background: #0067dd48;
 }
