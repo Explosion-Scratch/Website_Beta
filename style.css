@@ -24,6 +24,16 @@
 /*---------------------------- \
 | Main element styling         |
 \-----------------------------*/
+*::selection {
+  background: var(--accents);
+}
+*::-moz-selection {
+  background: var(--accents);
+}
+*::-webkit-selection {
+  background: var(--accents);
+}
+
 * {
   padding:0;
   margin:0;
