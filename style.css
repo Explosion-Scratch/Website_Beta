@@ -129,7 +129,13 @@ body::-webkit-scrollbar-thumb {
 	color: var(--accents);
 	background: #0067dd48;
 }
-
+/*---------------------------- \
+| Icons                         |
+\-----------------------------*/
+.iconify {
+  width: 20px;
+  height: auto;
+}
 /*---------------------------- \
 | Header                       |
 \-----------------------------*/
