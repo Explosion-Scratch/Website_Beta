@@ -137,7 +137,7 @@ body::-webkit-scrollbar-thumb {
   position: -webkit-sticky;
   position: sticky;
   top: 70px;
-  left: 20px;
+  left: 90vm;
 }
 button {
   padding: 5px;
