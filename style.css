@@ -140,22 +140,7 @@ body::-webkit-scrollbar-thumb {
   bottom: 5px;
   z-index: 10000000;
 }
-button {
-  padding: 5px;
-  background-color: var(--accents);
-  color: var(--text);
-  border-radius: 5px;
-  border: none;
-  margin: 0 auto;
-  box-shadow: 0 0 0 0 var(--box-shadow);
-  transition: color, background-color, box-shadow 0.5s !important;
-}
-button:hover {
-  background-color: var(--accents-disabled);
-}
-.dark-mode button:hover {
-  box-shadow: 0 0 10px 2px var(--box-shadow);
-}
+
 /*---------------------------- \
 | Icons                         |
 \-----------------------------*/
