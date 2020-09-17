@@ -48,8 +48,8 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-track {
 	background: #00000015;
 }
-
-
+img{transition-duration: 0.5s;}
+img:hover {box-shadow: 0 0 5px 0 var(--box-shadow);}
 
 body::-webkit-scrollbar-thumb {
 	background-color: var(--accents-disabled);
