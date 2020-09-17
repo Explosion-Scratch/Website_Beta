@@ -84,10 +84,10 @@ body::-webkit-scrollbar-thumb {
 | Links                        |
 \-----------------------------*/
 a {
-  color: var(--accents-disabled);
+  color: var(--accents);
 }
 .dark-mode a {
-  color: var(--accents)
+  color: var(--accents-disabled)
 }
 a:hover {
   color: var(--accents-disabled);
@@ -95,7 +95,7 @@ a:hover {
 }
 .dark mode a:hover {
   color: var(--accents);
-  background: #0067dd38;
+  background: #0067dd48;
 }
 /*---------------------------- \
 | Header                       |
