@@ -140,6 +140,8 @@ body::-webkit-scrollbar-thumb {
   bottom: 5px;
   z-index: 10000000;
   transition-duration: 0.5s;
+  border: none;
+  border-radius: 50%;
 }
 .dark-image {filter: invert(0);}
 .dark-mode .dark-image{filter: invert(100%); background-color: white;}
