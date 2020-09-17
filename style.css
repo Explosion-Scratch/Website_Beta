@@ -2,6 +2,7 @@
 | Variables                     |
 \-----------------------------*/
 :root {
+  --highlight-color: #30d1aea4;
   --text: black;
   --main-color: #eee;
   --secondary-color: #111;
@@ -12,6 +13,7 @@
   --box-shadow: #00000075;
 }
 .dark-mode * {
+  --highlight-color: #30d1aea4;
   --main-color: #101010;
   --secondary-color: #ddd;
   --tertiary-color: #777;
@@ -24,18 +26,11 @@
 /*---------------------------- \
 | Main element styling         |
 \-----------------------------*/
-*::selection {
+*::selection , ::-moz-selection, ::-webkit-selection{
   background: var(--accents-disabled);
   color: var(--background);
 }
-*::-moz-selection {
-  background: var(--accents-disabled);
-  color: var(--background);
-}
-*::-webkit-selection {
-  background: var(--accents-disabled);
-  color: var(--background);
-}
+
 
 * {
   padding:0;
