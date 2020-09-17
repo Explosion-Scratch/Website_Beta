@@ -112,55 +112,29 @@ body::-webkit-scrollbar-thumb {
 /*---------------------------- \
 | Links                        |
 \-----------------------------*/
-.page-content a{
+#link {
 	color: var(--accents);
 }
 
-.dark-mode .page-content a {
+.dark-mode #link {
 	color: var(--accents-disabled)
 }
 
-.page-content a:hover {
+#link:hover {
 	color: var(--accents-disabled);
 	background: #73a8e459;
 }
 
-.dark-mode .page-content a:hover {
+.dark mode #link:hover {
 	color: var(--accents);
 	background: #0067dd48;
 }
-/*---------------------------- \
-| Buttons                       |
-\-----------------------------*/
-button {
-  padding: 5px;
-  background-color: var(--accents);
-  color: var(--text);
-  border-radius: 5px;
-  border: none;
-  margin: 0 auto;
-  box-shadow: 0 0 0 0 var(--box-shadow);
-  transition: color, background-color, box-shadow 0.5s !important;
-}
-button:hover {
-  background-color: var(--accents-disabled);
-}
-.dark-mode button:hover {
-  box-shadow: 0 0 10px 2px var(--box-shadow);
-}
-/*---------------------------- \
-| Icons                         |
-\-----------------------------*/
-.iconify {
-  width: 20px;
-  height: auto;
-}
+
 /*---------------------------- \
 | Header                       |
 \-----------------------------*/
 .container {
 	max-width: 500px;
-  min-width: 300px;
 	margin: 0 auto;
 }
 
