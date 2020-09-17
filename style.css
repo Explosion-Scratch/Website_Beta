@@ -139,6 +139,11 @@ button {
   border-radius: 5px;
   border: none;
   margin: 0 auto;
+  box-shadow: 0 0 0 0 var(--box-shadow);
+  transition: box-shadow 0.5s !important;
+}
+.dark-mode button:hover {
+  box-shadow: 0 0 10px 2px var(--box-shadow);
 }
 /*---------------------------- \
 | Icons                         |
