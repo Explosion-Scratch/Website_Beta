@@ -125,7 +125,7 @@ body::-webkit-scrollbar-thumb {
 	background: #73a8e459;
 }
 
-.dark mode #link:hover {
+.dark-mode #link:hover {
 	color: var(--accents);
 	background: #0067dd48;
 }
@@ -141,6 +141,9 @@ button {
   margin: 0 auto;
   box-shadow: 0 0 0 0 var(--box-shadow);
   transition: box-shadow 0.5s !important;
+}
+button:hover {
+  box-shadow: 0 5px 3px 0 var(--box-shadow)
 }
 .dark-mode button:hover {
   box-shadow: 0 0 10px 2px var(--box-shadow);
