@@ -147,8 +147,10 @@ body::-webkit-scrollbar-thumb {
 .dark-image {
   filter: invert(0);
   background-color: transparent;
+  opacity: .4;
 }
 .dark-mode .dark-image{filter: invert(100%);}
+
 
 /*---------------------------- \
 | Icons                         |
