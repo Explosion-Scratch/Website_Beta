@@ -142,10 +142,7 @@ body::-webkit-scrollbar-thumb {
   transition-duration: 0.5s;
 }
 .dark-image {filter: invert(0);}
-.dark-mode .dark-image{
-  filter: invert(100%);
-  background-color: white;
-}
+.dark-mode .dark-image{filter: invert(100%); background-color: white;}
 
 /*---------------------------- \
 | Icons                         |
