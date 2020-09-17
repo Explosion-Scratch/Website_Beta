@@ -144,8 +144,11 @@ body::-webkit-scrollbar-thumb {
   border-radius: 50%;
   background-color: transparent;
 }
-.dark-image {filter: invert(0);}
-.dark-mode .dark-image{filter: invert(100%); background-color: white;}
+.dark-image {
+  filter: invert(0);
+  background-color: transparent;
+}
+.dark-mode .dark-image{filter: invert(100%);}
 
 /*---------------------------- \
 | Icons                         |
