@@ -70,11 +70,11 @@ body::-webkit-scrollbar-track {
 	background: #00000015;
 }
 
-img {
+#img {
 	border-radius: 5px;
 }
 
-img:hover {
+#img:hover {
 	box-shadow: 0 0 5px 0 var(--box-shadow);
 }
 
