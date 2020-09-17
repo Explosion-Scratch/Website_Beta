@@ -130,6 +130,17 @@ body::-webkit-scrollbar-thumb {
 	background: #0067dd48;
 }
 /*---------------------------- \
+| Buttons                       |
+\-----------------------------*/
+button {
+  padding: 5px;
+  background-color: var(--accents);
+  color: var(--text);
+  border-radius: 5px;
+  border: none;
+  margin: 0 auto;
+}
+/*---------------------------- \
 | Icons                         |
 \-----------------------------*/
 .iconify {
