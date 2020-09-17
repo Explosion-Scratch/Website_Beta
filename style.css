@@ -133,6 +133,10 @@ body::-webkit-scrollbar-thumb {
 /*---------------------------- \
 | Buttons                       |
 \-----------------------------*/
+.dark-button {
+  position: -webkit-sticky;
+  position: sticky;
+}
 button {
   padding: 5px;
   background-color: var(--accents);
