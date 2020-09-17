@@ -27,16 +27,16 @@
 | Main element styling         |
 \-----------------------------*/
 *::selection {
-  background: var(--accents-disabled);
-  color: var(--background);
+  background: var(--highlight-color);
+  color: var(--text);
 }
 *::-moz-selection {
-  background: var(--accents-disabled);
-  color: var(--background);
+  background: var(--highlight-color);
+  color: var(--text);
 }
 *::-webkit-selection {
-  background: var(--accents-disabled);
-  color: var(--background);
+  background: var(--highlight-color);
+  color: var(--text);
 }
 
 * {
