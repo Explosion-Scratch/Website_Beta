@@ -145,12 +145,10 @@ body::-webkit-scrollbar-thumb {
   background-color: transparent;
 }
 .dark-image {
-  width: 2%;
-  height: auto;
   filter: invert(0);
   background-color: transparent;
   opacity: .4;
-  transition: opacity 0.5s;
+  transition: opacity 0.5s
 }
 .dark-image:hover {
   opacity: .9;
