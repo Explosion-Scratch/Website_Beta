@@ -56,3 +56,8 @@ function DarkMode() {
    var element = document.body;
    element.classList.toggle("dark-mode");
 }
+
+document.getElementById('Search').onsubmit = function() {
+    window.location = 'http://www.google.com/search?q=site:explosion-scratch.github.io ' + document.getElementById('Text_Search').value;
+    return false;
+}
