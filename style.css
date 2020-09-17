@@ -139,6 +139,11 @@ body::-webkit-scrollbar-thumb {
   right: 5px;
   bottom: 5px;
   z-index: 10000000;
+  filter: invert(0);
+  transition-duration: 0.5s;
+}
+.dark-mode .dark-button{
+  background-color: var(--background);
 }
 
 /*---------------------------- \
