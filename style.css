@@ -149,6 +149,9 @@ body::-webkit-scrollbar-thumb {
   background-color: transparent;
   opacity: .4;
 }
+.dark-image:hover {
+  opacity: .9;
+}
 .dark-mode .dark-image{filter: invert(100%);}
 
 
