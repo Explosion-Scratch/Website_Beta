@@ -134,10 +134,11 @@ body::-webkit-scrollbar-thumb {
 | Buttons                       |
 \-----------------------------*/
 .dark-button {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 60px;
-  left: 97vm;
+  position: -webkit-fixed;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 10000000;
 }
 button {
   padding: 5px;
