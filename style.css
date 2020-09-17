@@ -136,8 +136,8 @@ body::-webkit-scrollbar-thumb {
 .dark-button {
   position: -webkit-sticky;
   position: sticky;
-  top: 70px;
-  left: 90vm;
+  top: 60px;
+  left: 97vm;
 }
 button {
   padding: 5px;
