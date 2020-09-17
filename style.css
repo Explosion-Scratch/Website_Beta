@@ -26,11 +26,18 @@
 /*---------------------------- \
 | Main element styling         |
 \-----------------------------*/
-*::selection , ::-moz-selection, ::-webkit-selection{
+*::selection {
   background: var(--accents-disabled);
   color: var(--background);
 }
-
+*::-moz-selection {
+  background: var(--accents-disabled);
+  color: var(--background);
+}
+*::-webkit-selection {
+  background: var(--accents-disabled);
+  color: var(--background);
+}
 
 * {
   padding:0;
