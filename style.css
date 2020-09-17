@@ -140,10 +140,10 @@ button {
   border: none;
   margin: 0 auto;
   box-shadow: 0 0 0 0 var(--box-shadow);
-  transition: box-shadow 0.5s !important;
+  transition: color, background-color, box-shadow 0.5s !important;
 }
 button:hover {
-  box-shadow: 0 5px 3px 0 var(--box-shadow)
+  background-color: var(--accents-disabled);
 }
 .dark-mode button:hover {
   box-shadow: 0 0 10px 2px var(--box-shadow);
