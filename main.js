@@ -58,7 +58,7 @@ function DarkMode() {
 }
 
 document.getElementById('Search').onsubmit = function() {
-    window.location = 'http://www.google.com/search?q=site:explosion-scratch.github.io ' + document.getElementById('Text_Search').value;
+    window.location = 'http://www.google.com/search?q=site:explosionscratc.repl.co ' + document.getElementById('Text_Search').value;
     return false;
 }
 document.getElementById('Mobile_Search').onsubmit = function() {
