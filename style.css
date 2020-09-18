@@ -28,8 +28,9 @@
 /*---------------------------- \
 | Main element styling         |
 \-----------------------------*/
-html, main {
+html, main, .page-content {
   background: var(--background) !important;
+  min-height: 100vh !important;
 }
 *::selection {
 	background: var(--highlight-color);
