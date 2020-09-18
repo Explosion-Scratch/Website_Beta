@@ -292,7 +292,9 @@ header.scrolled .menu-items {
 	color: var(--text);
 	text-decoration: none;
 }
-
+.menu-items a:hover {
+  color: var(--accents-disabled);
+}
 .menu-items .container {
 	position: relative;
 }
@@ -441,7 +443,9 @@ main h2 {
 		letter-spacing: 8px;
 		text-transform: uppercase;
 	}
-
+  .mobile-menu-items a:hover {
+  color: var(--accents-disabled);
+  }
 	.mobile-menu-items ul li {
 		margin: 24px 0;
 	}
