@@ -418,7 +418,6 @@ main h2 {
 
 	.mobile-menu-items {
 		display: flex;
-		background: var(--background);
 		width: 100%;
 		height: 100vh;
 		position: fixed;
