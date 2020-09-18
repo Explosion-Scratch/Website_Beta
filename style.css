@@ -180,7 +180,7 @@ body::-webkit-scrollbar-thumb {
 	position: absolute;
 	width: 100%;
 	margin-top: -200px;
-	transition: all .5;
+	transition: all .4s;
 }
 
 .header-container header {
@@ -292,9 +292,7 @@ header.scrolled .menu-items {
 	color: var(--text);
 	text-decoration: none;
 }
-.menu-items a:hover {
-  color: var(--accents-disabled);
-}
+
 .menu-items .container {
 	position: relative;
 }
@@ -418,6 +416,7 @@ main h2 {
 
 	.mobile-menu-items {
 		display: flex;
+		background: var(--background);
 		width: 100%;
 		height: 100vh;
 		position: fixed;
@@ -426,13 +425,13 @@ main h2 {
 		justify-content: center;
 		pointer-events: none;
 		opacity: 0;
-		transition: all .5s;
+		transition: all .4s;
 	}
 
 	.mobile-menu-items ul {
 		margin-top: 64px;
 		list-style: none;
-		transition: all .5s;
+		transition: all .4s;
 	}
 
 	.mobile-menu-items a {
@@ -441,11 +440,8 @@ main h2 {
 		color: var(--tertiary-color);
 		letter-spacing: 8px;
 		text-transform: uppercase;
-    transition: color 0.5s;
 	}
-  .mobile-menu-items a:hover {
-  color: var(--accents-disabled);
-  }
+
 	.mobile-menu-items ul li {
 		margin: 24px 0;
 	}
@@ -470,7 +466,7 @@ main h2 {
 		width: 100%;
 		display: block;
 		padding-top: 0;
-		transition: all .5s;
+		transition: all .4s;
 	}
 
 	.searchbox-mobile.active {
