@@ -427,13 +427,13 @@ main h2 {
 		justify-content: center;
 		pointer-events: none;
 		opacity: 0;
-		transition: all .4s;
+		transition: all .5s;
 	}
 
 	.mobile-menu-items ul {
 		margin-top: 64px;
 		list-style: none;
-		transition: all .4s;
+		transition: all .5s;
 	}
 
 	.mobile-menu-items a {
@@ -442,6 +442,7 @@ main h2 {
 		color: var(--tertiary-color);
 		letter-spacing: 8px;
 		text-transform: uppercase;
+    transition: color 0.5s;
 	}
   .mobile-menu-items a:hover {
   color: var(--accents-disabled);
