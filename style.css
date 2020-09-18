@@ -28,6 +28,9 @@
 /*---------------------------- \
 | Main element styling         |
 \-----------------------------*/
+html {
+  background: var(--background) !important;
+}
 *::selection {
 	background: var(--highlight-color);
 	color: var(--text);
