@@ -28,7 +28,7 @@
 /*---------------------------- \
 | Main element styling         |
 \-----------------------------*/
-html {
+html, main {
   background: var(--background) !important;
 }
 *::selection {
