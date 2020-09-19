@@ -92,6 +92,8 @@ body::-webkit-scrollbar-thumb {
 \-----------------------------*/
 .parallax * {
   background: none;
+  vertical-align: center;
+  margin: auto;
 }
 .parallax {
   height: 200px;
