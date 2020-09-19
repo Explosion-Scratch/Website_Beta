@@ -90,6 +90,9 @@ body::-webkit-scrollbar-thumb {
 /*---------------------------- \
 | Parallax Effect               |
 \-----------------------------*/
+.parallax * {
+  background: none;
+}
 .parallax {
   height: 200px;
   width: 100%;
