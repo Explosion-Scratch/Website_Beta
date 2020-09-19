@@ -94,7 +94,7 @@ body::-webkit-scrollbar-thumb {
   height: 200px;
   width: 100%;
   background-attachment: fixed;
-  
+  background-position: center;
   background-image: url('https://i.ytimg.com/vi/N_WGoOkIbAQ/maxresdefault.jpg');
 }
 
