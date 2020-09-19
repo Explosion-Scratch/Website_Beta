@@ -97,7 +97,7 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
 }
 .parallax {
-  height: 200px;
+  height: auto;
   width: 100%;
   background-attachment: fixed;
   background-position: center;
