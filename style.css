@@ -88,30 +88,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 /*---------------------------- \
-| Background image             |
+| Parallax Effect               |
 \-----------------------------*/
-.background-image {
-	z-index: -100;
-	min-height: 100%;
-	min-width: 1024px;
-	width: 100%;
-	height: auto;
-	position: fixed;
-	top: 0;
-	left: 0;
-	filter: blur(10px) contrast(50%) saturate(200%) brightness(200%);
-}
-
-.dark-mode .background-image {
-	z-index: -100;
-	min-height: 100%;
-	min-width: 1024px;
-	width: 100%;
-	height: auto;
-	position: fixed;
-	top: 0;
-	left: 0;
-	filter: blur(10px) contrast(50%) saturate(200%) brightness(-150%);
+.parallax {
+  
 }
 
 /*---------------------------- \
