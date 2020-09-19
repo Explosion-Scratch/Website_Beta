@@ -91,7 +91,10 @@ body::-webkit-scrollbar-thumb {
 | Parallax Effect               |
 \-----------------------------*/
 .parallax {
+  height: 200px;
+  width: 100%;
   background-attachment: fixed;
+  
   background-image: url('https://i.ytimg.com/vi/N_WGoOkIbAQ/maxresdefault.jpg');
 }
 
