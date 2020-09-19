@@ -102,7 +102,8 @@ body::-webkit-scrollbar-thumb {
   background-attachment: fixed;
   background-position: center;
   background-image: url('https://i.ytimg.com/vi/N_WGoOkIbAQ/maxresdefault.jpg');
-  filter: blur(1px)
+}
+.bg-text {
 }
 /*---------------------------- \
 | Links                        |
