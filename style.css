@@ -103,7 +103,17 @@ body::-webkit-scrollbar-thumb {
   background-position: center;
   background-image: url('https://i.ytimg.com/vi/N_WGoOkIbAQ/maxresdefault.jpg');
 }
-
+.bg-text {
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
 /*---------------------------- \
 | Links                        |
 \-----------------------------*/
