@@ -103,15 +103,7 @@ body::-webkit-scrollbar-thumb {
   background-position: center;
   background-image: url('https://i.ytimg.com/vi/N_WGoOkIbAQ/maxresdefault.jpg');
 }
-.bg-text {
-  background-color: #ffffff66;
-  font-weight: bold;
-  border: 3px solid #f1f1f1;
-  width: 80%;
-  height: 20%;
-  padding: 20px;
-  text-align: center;
-}
+
 /*---------------------------- \
 | Links                        |
 \-----------------------------*/
