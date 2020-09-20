@@ -468,7 +468,7 @@ main h2 {
 
 /* Menu icon */
 * {
-  --menu-size: 20px;
+  --menu-size: 3px;
 }
 .bar1, .bar2, .bar3 {
   width: calc(var(--menu-size)*7);
