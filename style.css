@@ -42,6 +42,7 @@
 	background: var(--highlight-color);
 	color: var(--text);
 }
+
 * {
 	padding: 0;
 	margin: 0;
@@ -52,9 +53,9 @@
 body {
 	font-family: "Raleway", sans-serif;
 	overflow: overlay;
-  min-height: 100vh;
-  color: var(--text);
-  background: var(--background);
+	min-height: 100vh;
+	color: var(--text);
+	background: var(--background);
 }
 
 p {
@@ -85,7 +86,7 @@ body::-webkit-scrollbar-thumb {
 /*---------------------------- \
 | Links                        |
 \-----------------------------*/
-.page-content a{
+.page-content a {
 	color: var(--accents-disabled);
 }
 
@@ -102,54 +103,61 @@ body::-webkit-scrollbar-thumb {
 	color: var(--accents-disabled);
 	background: #0067dd48;
 }
+
 /*---------------------------- \
 | Buttons                       |
 \-----------------------------*/
 .dark-button {
-  position: -webkit-fixed;
-  position: fixed;
-  right: 5px;
-  bottom: 5px;
-  z-index: 10000000;
-  transition-duration: 0.5s;
-  border: none;
-  border-radius: 50%;
-  background-color: transparent;
+	position: -webkit-fixed;
+	position: fixed;
+	right: 5px;
+	bottom: 5px;
+	z-index: 10000000;
+	transition-duration: 0.5s;
+	border: none;
+	border-radius: 50%;
+	background-color: transparent;
 }
 
 .dark-image {
-  filter: invert(0);
-  background-color: transparent;
-  opacity: .4;
-  transition: opacity 0.5s;
-  width: 40px;
-  height: 40px;
+	filter: invert(0);
+	background-color: transparent;
+	opacity: .4;
+	transition: opacity 0.5s;
+	width: 40px;
+	height: 40px;
 }
+
 @media(max-width:500px) {
-  .dark-image {
-    width: 20px;
-    height: 20px
-  }
+	.dark-image {
+		width: 20px;
+		height: 20px
+	}
 }
+
 .dark-image:hover {
-  opacity: .9;
+	opacity: .9;
 }
-.dark-mode .dark-image{filter: invert(100%);}
+
+.dark-mode .dark-image {
+	filter: invert(100%);
+}
 
 
 /*---------------------------- \
 | Icons                         |
 \-----------------------------*/
 .iconify {
-  width: 20px;
-  height: auto;
+	width: 20px;
+	height: auto;
 }
+
 /*---------------------------- \
 | Header                       |
 \-----------------------------*/
 .page-content {
 	max-width: 500px;
-  min-width: 300px;
+	min-width: 300px;
 	margin: 0 auto;
 }
 
@@ -468,27 +476,30 @@ main h2 {
 
 /* Menu icon */
 * {
-  --menu-size: 3px;
+	--menu-size: 3px;
 }
-.bar1, .bar2, .bar3 {
-  width: calc(var(--menu-size)*7);
-  height: var(--menu-size);
-  background-color: var(--tertiary-color);
-  margin: calc(var(--menu-size)*1.2) 0;
-  transition: 0.4s;
-  border-radius: 50px;
+
+.bar1,
+.bar2,
+.bar3 {
+	width: calc(var(--menu-size)*7);
+	height: var(--menu-size);
+	background-color: var(--tertiary-color);
+	margin: calc(var(--menu-size)*1.2) 0;
+	transition: 0.4s;
+	border-radius: 50px;
 }
 
 .menu .bar1 {
-  transform: rotate(-45deg) translate(calc(var(--menu-size)*-1),var(--menu-size));
+	transform: rotate(-45deg) translate(calc(var(--menu-size)*-1), var(--menu-size));
 }
 
 
 .menu .bar2 {
-  transform: translate(30px,0);
-  opacity: 0;
+	transform: translate(30px, 0);
+	opacity: 0;
 }
 
 .menu .bar3 {
-  transform: rotate(45deg) translate(calc(var(--menu-size)*-2), calc(var(--menu-size)*-2));
+	transform: rotate(45deg) translate(calc(var(--menu-size)*-2), calc(var(--menu-size)*-2));
 }
