@@ -86,20 +86,20 @@ body::-webkit-scrollbar-thumb {
 | Links                        |
 \-----------------------------*/
 .page-content a{
-	color: var(--accents);
+	color: var(--accents-disabled);
 }
 
 .dark-mode .page-content a {
-	color: var(--accents-disabled)
+	color: var(--accents)
 }
 
 .page-content a:hover {
-	color: var(--accents-disabled);
+	color: var(--accents);
 	background: #73a8e459;
 }
 
 .dark-mode .page-content a:hover {
-	color: var(--accents);
+	color: var(--accents-disabled);
 	background: #0067dd48;
 }
 /*---------------------------- \
