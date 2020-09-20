@@ -31,7 +31,6 @@
 *::selection {
 	background: var(--highlight-color);
 	color: var(--text);
-  scroll-behavior: smooth;
 }
 
 *::-moz-selection {
@@ -49,6 +48,7 @@
 	margin: 0;
 	box-sizing: border-box;
 	transition: color, background-color 0.5s;
+  scroll-behavior: smooth;
 }
 
 body {
