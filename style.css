@@ -472,7 +472,7 @@ main h2 {
 }
 .bar1, .bar2, .bar3 {
   width: calc(var(--menu-size)*7);
-  height: 5px;
+  height: var(--menu-size);
   background-color: var(--tertiary-color);
   margin: 6px 0;
   transition: 0.4s;
