@@ -65,3 +65,6 @@ document.getElementById('Mobile_Search').onsubmit = function() {
     window.location = 'http://www.google.com/search?q=site:explosionscratc.repl.co ' + document.getElementById('Mobile_Text_Search').value;
     return false;
 }
+function menu(x) {
+  x.classList.toggle("menu");
+}
