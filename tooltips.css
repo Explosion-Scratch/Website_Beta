@@ -12,6 +12,7 @@
     opacity: 0;
     position: absolute;
     z-index: -100;
+    font-size: 12px;
 }
 
 #tool:hover::before,
