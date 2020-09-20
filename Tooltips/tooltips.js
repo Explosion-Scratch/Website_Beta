@@ -3,7 +3,7 @@
 
     // Track all tooltips trigger
     for (var i = 0; i < Tooltips.length; i++) {
-
+ 
       // Event Handler
       Tooltips[i].addEventListener("mouseenter", function(ev) {
         ev.preventDefault();
