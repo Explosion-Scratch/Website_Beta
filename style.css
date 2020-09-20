@@ -468,24 +468,24 @@ main h2 {
 
 /* Menu icon */
 * {
-  --menu-size: 2px;
+  --menu-size: 6px;
 }
 .bar1, .bar2, .bar3 {
-  width: calc(var(--menu-size)*7);
-  height: var(--menu-size);
+  width: 35px;
+  height: 5px;
   background-color: var(--tertiary-color);
   margin: 6px 0;
   transition: 0.4s;
 }
 
 .menu .bar1 {
-  -webkit-transform: rotate(-45deg) translate(calc(var(--menu-size)* -1.8), 6px);
-  transform: rotate(-45deg) translate(calc(var(--menu-size)* -1.8), 6px);
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
 }
 
 .menu .bar2 {opacity: 0;}
 
 .menu .bar3 {
-  -webkit-transform: rotate(45deg) translate(calc(var(--menu-size)* -1.8), -8px);
-  transform: rotate(45deg) translate(calc(var(--menu-size)* -1.8), -8px);
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
 }
