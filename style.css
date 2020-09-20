@@ -97,14 +97,14 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
 }
 .parallax{
-  height: auto;
+  height: 150px;
   width: 100%;
   background-attachment: fixed;
   background-position: center;
   background-image: url('https://i.ytimg.com/vi/N_WGoOkIbAQ/maxresdefault.jpg');
   filter: contrast(20%) ;
 }
-
+.background
 /*---------------------------- \
 | Links                        |
 \-----------------------------*/
