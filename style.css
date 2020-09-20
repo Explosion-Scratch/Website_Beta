@@ -479,9 +479,10 @@ main h2 {
 }
 
 .menu .bar1 {
-  -webkit-transform: rotate(-45deg) translate(calc(var(--menu-size)*-1.8), calc(var(--menu-size)*-1.2));
-  transform: rotate(-45deg) translate(calc(var(--menu-size)*-1.8), calc(var(--menu-size)*-1.2));
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
 }
+
 
 .menu .bar2 {opacity: 0;}
 
