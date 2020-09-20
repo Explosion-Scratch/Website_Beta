@@ -104,12 +104,7 @@ body::-webkit-scrollbar-thumb {
   background-image: url('https://i.ytimg.com/vi/N_WGoOkIbAQ/maxresdefault.jpg');
   filter: contrast(20%) ;
 }
-.bg-text {
-  font-size: 25px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);}
+
 /*---------------------------- \
 | Links                        |
 \-----------------------------*/
