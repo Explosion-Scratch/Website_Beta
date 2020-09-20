@@ -474,13 +474,13 @@ main h2 {
   width: calc(var(--menu-size)*7);
   height: var(--menu-size);
   background-color: var(--tertiary-color);
-  margin: 6px 0;
+  margin: calc(var(--menu-size)*1.2) 0;
   transition: 0.4s;
 }
 
 .menu .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-  transform: rotate(-45deg) translate(-9px, 6px);
+  -webkit-transform: rotate(-45deg) translate(calc(var(--menu-size)*-1.8), calc(var(--menu-size)*-1.2));
+  transform: rotate(-45deg) translate(calc(var(--menu-size)*-1.8), calc(var(--menu-size)*-1.2));
 }
 
 .menu .bar2 {opacity: 0;}
