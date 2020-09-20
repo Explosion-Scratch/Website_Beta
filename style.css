@@ -13,7 +13,7 @@
 	--box-shadow: #00000075;
 }
 
-.dark-mode * {
+.dark-mode {
 	--highlight-color: #30d1aea4;
 	--main-color: #101010;
 	--secondary-color: #ddd;
