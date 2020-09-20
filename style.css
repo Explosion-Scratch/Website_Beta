@@ -96,7 +96,7 @@ body::-webkit-scrollbar-thumb {
   padding: auto;
   text-align: center;
 }
-.parallax {
+.parallax{
   height: auto;
   width: 100%;
   background-attachment: fixed;
@@ -104,7 +104,6 @@ body::-webkit-scrollbar-thumb {
   background-image: url('https://i.ytimg.com/vi/N_WGoOkIbAQ/maxresdefault.jpg');
   filter: contrast(20%) ;
 }
-
 
 /*---------------------------- \
 | Links                        |
