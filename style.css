@@ -28,10 +28,6 @@
 /*---------------------------- \
 | Main element styling         |
 \-----------------------------*/
-html, main, .page-content {
-  background: var(--background) !important;
-  min-height: 100vh !important;
-}
 *::selection {
 	background: var(--highlight-color);
 	color: var(--text);
@@ -46,20 +42,19 @@ html, main, .page-content {
 	background: var(--highlight-color);
 	color: var(--text);
 }
-main {min-height: 100vh}
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	color: var(--text);
-	background: var(--background);
 	transition: color, background-color 0.5s;
 }
 
 body {
 	font-family: "Raleway", sans-serif;
 	overflow: overlay;
-  min-height: 100vh !important;
+  min-height: 100vh;
+  color: var(--text);
+  background: var(--background);
 }
 
 p {
