@@ -486,6 +486,6 @@ main h2 {
 .menu .bar2 {opacity: 0;}
 
 .menu .bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px);
-  transform: rotate(45deg) translate(-8px, -8px);
+  -webkit-transform: rotate(45deg) translate(calc(var(--menu-size)*-1.6), calc(var(--menu-size)*-1.6));
+  transform: rotate(45deg) translate(calc(var(--menu-size)*-1.6), calc(var(--menu-size)*-1.6));
 }
