@@ -468,7 +468,7 @@ main h2 {
 
 /* Menu icon */
 * {
-  --menu-size: 3px;
+  --menu-size: 20px;
 }
 .bar1, .bar2, .bar3 {
   width: calc(var(--menu-size)*7);
@@ -479,7 +479,7 @@ main h2 {
 }
 
 .menu .bar1 {
-  transform: rotate(-45deg) translate(calc(var(--menu-size)*-1.6), calc(var(--menu-size)*1.2));
+  transform: rotate(-45deg) translate(calc(var(--menu-size)*-1),var(--menu-size));
 }
 
 
